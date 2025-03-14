@@ -7,8 +7,6 @@ import Media from './Media';
 const Hero = () => {
     return (
         <div className='relative max-w-[1200px] h-full mx-auto py-8 bg-black justify-center items-center'>
-           
-
             <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
                 <div className='col-span-1 px-5 my-auto justify-center items-center p-2'>
                     <h1 className='text-white text-4xl sm:text-7xl lg:text-4xl font-bold'>
@@ -17,7 +15,7 @@ const Hero = () => {
                         </span> <br />
                         <TypeAnimation
                             sequence={[
-                                "Data Analyst", 1000,
+                                "AI and Robotics Engineer", 1000,
                                 "Python Developer", 1000,
                                 "Software Developer", 1000,
                             ]}
