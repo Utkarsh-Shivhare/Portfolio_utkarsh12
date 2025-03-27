@@ -42,7 +42,7 @@ const Home = () => {
               2000,
               'Data Scientist',
               2000,
-              'Full Stack Developer',
+              'Software Developer',
               2000,
             ]}
             wrapper="span"
@@ -57,7 +57,7 @@ const Home = () => {
           transition={{ duration: 0.5, delay: 0.6 }}
           className="text-[#8892b0] max-w-2xl mx-auto mb-12 text-lg"
         >
-          Specializing in AI/ML solutions and full-stack development. 
+          Specializing in AI/ML solutions and Software development. 
           Currently focused on building intelligent systems and automated solutions 
           that push the boundaries of technology.
         </motion.p>
@@ -71,7 +71,7 @@ const Home = () => {
           <motion.a
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
-            href="https://github.com/aspirers04"
+            href="https://github.com/Utkarsh-Shivhare"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#ccd6f6] hover:text-[#64ffda] transition-colors"
@@ -81,7 +81,7 @@ const Home = () => {
           <motion.a
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
-            href="https://linkedin.com/in/your-linkedin"
+            href="https://www.linkedin.com/in/utkarsh-shivhare/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#ccd6f6] hover:text-[#64ffda] transition-colors"
@@ -91,23 +91,24 @@ const Home = () => {
           <motion.a
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
-            href="mailto:your.email@example.com"
+            href="mailto:utkarshshivhare26@gmail.com"
             className="text-[#ccd6f6] hover:text-[#64ffda] transition-colors"
           >
             <FaEnvelope size={30} />
           </motion.a>
         </motion.div>
 
-        <motion.button
+        <motion.a
+          href="about"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 1 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="mt-12 px-8 py-4 border-2 border-[#64ffda] text-[#64ffda] rounded-lg hover:bg-[#64ffda]/10 transition-colors"
+          className="mt-12 px-8 py-4 border-2 border-[#64ffda] text-[#64ffda] rounded-lg hover:bg-[#64ffda]/10 transition-colors inline-block"
         >
           Check out my work!
-        </motion.button>
+        </motion.a>
       </div>
     </div>
   );

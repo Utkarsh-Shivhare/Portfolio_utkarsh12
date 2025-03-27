@@ -10,8 +10,8 @@ const Footer = () => {
            Utkarsh Shivhare
           </h1>
           <h2 className="text-xl font-semibold">My Portfolio</h2>
-          <p className="text-gray-400 mt-2">Python Developer</p>
-          <p className="text-gray-400">Contact: utkarshivhare26@gmail.com</p>
+          <p className="text-gray-400 mt-2">Software Developer</p>
+          <p className="text-gray-400">Contact: utkarshshivhare26@gmail.com</p>
           <p className="text-gray-400">Location: Lucknow, Uttar Pradesh</p>
         </div>
         {/* Social Icons Section */}

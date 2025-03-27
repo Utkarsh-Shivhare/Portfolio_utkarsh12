@@ -125,8 +125,8 @@ const Contact = () => {
                   <FaEnvelope className="text-[#64ffda] text-xl mt-1" />
                   <div>
                     <h4 className="text-[#ccd6f6] font-semibold">Email</h4>
-                    <a href="mailto:your.email@example.com" className="text-[#8892b0] hover:text-[#64ffda] transition-colors">
-                      your.email@example.com
+                    <a href="mailto:utkarshshivhare26@gmail.com" className="text-[#8892b0] hover:text-[#64ffda] transition-colors">
+                      utkarshshivhare26@gmail.com
                     </a>
                   </div>
                 </div>
@@ -135,8 +135,8 @@ const Contact = () => {
                   <FaLinkedin className="text-[#64ffda] text-xl mt-1" />
                   <div>
                     <h4 className="text-[#ccd6f6] font-semibold">LinkedIn</h4>
-                    <a href="https://linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer" className="text-[#8892b0] hover:text-[#64ffda] transition-colors">
-                      linkedin.com/in/your-linkedin
+                    <a href="https://www.linkedin.com/in/utkarsh-shivhare/" target="_blank" rel="noopener noreferrer" className="text-[#8892b0] hover:text-[#64ffda] transition-colors">
+                      linkedin.com/in/utkarsh-shivhare
                     </a>
                   </div>
                 </div>
@@ -145,8 +145,8 @@ const Contact = () => {
                   <FaGithub className="text-[#64ffda] text-xl mt-1" />
                   <div>
                     <h4 className="text-[#ccd6f6] font-semibold">GitHub</h4>
-                    <a href="https://github.com/aspirers04" target="_blank" rel="noopener noreferrer" className="text-[#8892b0] hover:text-[#64ffda] transition-colors">
-                      github.com/aspirers04
+                    <a href="https://github.com/Utkarsh-Shivhare" target="_blank" rel="noopener noreferrer" className="text-[#8892b0] hover:text-[#64ffda] transition-colors">
+                      github.com/Utkarsh-Shivhare
                     </a>
                   </div>
                 </div>
@@ -175,7 +175,7 @@ const Contact = () => {
                 <motion.a
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}
-                  href="https://github.com/aspirers04"
+                  href="https://github.com/Utkarsh-Shivhare"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#ccd6f6] hover:text-[#64ffda] transition-colors"
@@ -185,7 +185,7 @@ const Contact = () => {
                 <motion.a
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}
-                  href="https://linkedin.com/in/your-linkedin"
+                  href="https://www.linkedin.com/in/utkarsh-shivhare/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#ccd6f6] hover:text-[#64ffda] transition-colors"

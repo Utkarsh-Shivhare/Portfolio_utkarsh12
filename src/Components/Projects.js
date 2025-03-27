@@ -30,7 +30,7 @@ const Projects = () => {
       github: null,
       link: '#',
       tech: ['Computer Vision', 'AWS', 'Firebase', 'IoT'],
-      image: 'https://images.unsplash.com/photo-1555255707-c07966088b7b?auto=format&fit=crop&q=80',
+      image: require('../assets/Pashutham.png'),
       color: '#ff6b6b'
     },
     {
@@ -43,7 +43,7 @@ const Projects = () => {
       github: '#',
       link: null,
       tech: ['NLP', 'Deep Learning', 'Computer Vision', 'Transfer Learning'],
-      image: 'https://images.unsplash.com/photo-1633409361618-c73427e4e206?auto=format&fit=crop&q=80',
+      image: require('../assets/image_captioning.png'),
       color: '#ffd93d'
     }
   ];
